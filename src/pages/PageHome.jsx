@@ -10,10 +10,6 @@ const PageHome = () => {
     <PageDataProvider config={{}}>
       <div className="AppPage">
         <h2>Welcome to leapbase.com</h2>
-        <br/>
-        <ul>
-          <li><a href="/about">About</a></li>
-        </ul>
       </div>
     </PageDataProvider>
   )
