@@ -10,8 +10,6 @@ const PageAbout = () => {
     <PageDataProvider config={{}}>
       <div className="AppPage">
         <h2>About Us</h2>
-        <br />
-        <h4>app name: {appName}</h4>
       </div>
     </PageDataProvider>
   )
