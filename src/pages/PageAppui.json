@@ -1,0 +1,22 @@
+{
+  "content": {
+    "config": {
+      "name": "appui"
+    }, 
+    "components": [
+      {
+        "component": "BasicAppBarTop"
+      },
+      {
+        "component": "BasicRegistrationForm"
+      }, 
+      {
+        "component": "BasicAppBarBottom"
+      },
+      {
+        "component": "BasicBox",
+        "height": 90
+      }
+    ]
+  }
+}

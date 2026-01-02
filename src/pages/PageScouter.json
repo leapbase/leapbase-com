@@ -1,0 +1,24 @@
+{
+  "content": {
+    "config": {
+      "name": "scouter"
+    }, 
+    "components": [
+      {
+        "component": "BasicAppBarTop"
+      },
+      {
+        "component": "Scouter",
+        "title": "SDTM Domains",
+        "apiUrl": "http://localhost:5100",
+        "apiKey": "yourSecretKey8899",
+        "sideDataPath": "/api/domains",
+        "domainListPath": "/api/domains",
+        "domainDataPath": "/api/domain/data"
+      },
+      {
+        "component": "BasicAppBarBottom"
+      }
+    ]
+  }
+}

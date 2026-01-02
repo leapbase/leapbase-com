@@ -1,0 +1,132 @@
+{
+  "content": {
+    "config": {
+      "name": "sink"
+    }, 
+    "components": [
+      {
+        "component": "BasicAccordion"
+      },
+      {
+        "component": "BasicCard", 
+        "title": "card1",
+        "width": 270, 
+        "description": "card1 info"
+      },
+      {
+        "component": "BasicCard",
+        "title": "Sample Card",
+        "width": 360,
+        "description": "This is a simple Material UI card component."
+      },
+      {
+        "component": "StarRating", 
+        "readOnly": false,
+        "rating": 4
+      },
+      {
+        "component": "BasicBanner",
+        "message": "This is a simple banner component."
+      },
+      {
+        "component": "BasicBottomNav"
+      }, 
+      {
+        "component": "UnknownComponent"
+      },
+      {
+        "component": "BasicRegistrationForm"
+      }, 
+      {
+        "component": "BasicListBox", 
+        "items": ["apple", "banana", "orange"]
+      },
+      {
+        "component": "BasicCalendar"
+      },
+      {
+        "component": "BasicDatePicker",
+        "label": "Select date"
+      },
+      {
+        "component": "BasicTreeview", 
+        "items": [
+          { 
+            "id": 1,
+            "label": "Item1", 
+            "items": [
+              {
+                "id": 11,
+                "label": "Item1-1"
+              }, 
+              {
+                "id": 12,
+                "label": "Item1-2", 
+                "items": [
+                  {
+                    "id": 121,
+                    "label": "Item1-2-1"
+                  }
+                ]
+              }
+            ]
+          }, 
+          { 
+            "id": 2,
+            "label": "Item2", 
+            "items": [
+              {
+                "id": 21,
+                "label": "Item2-1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "BasicTable",
+        "cols": [
+          "id",
+          "name",
+          "age",
+          "city"
+        ],
+        "rows": [
+          {
+            "id": 1,
+            "name": "Alice",
+            "age": 30,
+            "city": "New York"
+          },
+          {
+            "id": 2,
+            "name": "Bob",
+            "age": 25,
+            "city": "San Francisco"
+          },
+          {
+            "id": 3,
+            "name": "Charlie",
+            "age": 35,
+            "city": "Chicago"
+          }
+        ]
+      },
+      {
+        "component": "CurrentTime",
+        "timezone": "Europe/London"
+      },
+      {
+        "component": "CurrentTime",
+        "timezone": "America/Los_Angeles"
+      },
+      {
+        "component": "BasicLineChart"
+      },
+      {
+        "component": "BasicBox",
+        "height": 90
+      }
+    ]
+  }
+}

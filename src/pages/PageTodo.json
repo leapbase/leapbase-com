@@ -1,0 +1,20 @@
+{
+  "content": {
+    "config": {
+      "name": "todo"
+    }, 
+    "components": [
+      {
+        "component": "BasicCard", 
+        "title": "card1",
+        "width": 270, 
+        "description": "card1 info"
+      }, 
+      {
+        "component": "StarRating", 
+        "readOnly": false,
+        "rating": 4
+      }
+    ]
+  }
+}

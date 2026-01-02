@@ -1,0 +1,12 @@
+{
+  "content": {
+    "app": {
+      "name": "testapp", 
+      "description": "Scouter test application",
+      "config": {
+        "apiUrl": "http://localhost:5100",
+        "apiKey": "yourSecretKey8899"
+      }    
+    }
+  }
+}
